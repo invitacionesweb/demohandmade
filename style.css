@@ -1,0 +1,114 @@
+:root {
+    --color-principal:#f0f0e5;
+    --color-secundario:#0000;
+    --color-terciario:red;
+    --font-principal:'Ibarra Real Nova', serif;
+    --font-secundaria:'Ibarra Real Nova', serif;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--color-principal);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-width: 320px;
+    overflow-x: hidden;
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+.header-marco {
+    width: 100%; /* Ajusta el tamaño del SVG */
+    height: 100vh;
+    background-color:red; /* Cambia el color del SVG */
+    -webkit-mask: url('./svg-fijos/marco-vertical.svg') no-repeat center;
+    mask: url('./svg/Group3.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+.inicio-dibujo {
+    width: 100px; /* Ajusta el tamaño del SVG */
+    height: 100px;
+    background-color: red; /* Cambia el color del SVG */
+    -webkit-mask: url('./svg/Group3.svg') no-repeat center;
+    mask: url('./svg/Group3.svg') no-repeat center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    
+
+}
